@@ -18,6 +18,7 @@
 		DD183A7227BFF505007B3138 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD183A7127BFF505007B3138 /* AddContactController.swift */; };
 		DD183A7427C005E8007B3138 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD183A7327C005E7007B3138 /* ContactCell.swift */; };
 		DD183A7627C00779007B3138 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD183A7527C00779007B3138 /* CellModel.swift */; };
+		DDF32B9627C1112800DE94F1 /* ContactDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF32B9527C1112800DE94F1 /* ContactDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DD183A7127BFF505007B3138 /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
 		DD183A7327C005E7007B3138 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		DD183A7527C00779007B3138 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		DDF32B9527C1112800DE94F1 /* ContactDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				DD183A5B27BD440E007B3138 /* Main */,
 				DD183A7D27C02C47007B3138 /* AddContact */,
 				DD183A7B27C02C2F007B3138 /* Cell */,
+				DDF32B9727C112D000DE94F1 /* ContactDetails */,
 				DD183A7C27C02C37007B3138 /* Model */,
 				DD183A4C27BD42DF007B3138 /* Main.storyboard */,
 				DD183A4F27BD42E1007B3138 /* Assets.xcassets */,
@@ -133,6 +136,14 @@
 				DD183A7127BFF505007B3138 /* AddContactController.swift */,
 			);
 			path = AddContact;
+			sourceTree = "<group>";
+		};
+		DDF32B9727C112D000DE94F1 /* ContactDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DDF32B9527C1112800DE94F1 /* ContactDetailsController.swift */,
+			);
+			path = ContactDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				DD183A7627C00779007B3138 /* CellModel.swift in Sources */,
 				DD183A7227BFF505007B3138 /* AddContactController.swift in Sources */,
 				DD183A4927BD42DF007B3138 /* SceneDelegate.swift in Sources */,
+				DDF32B9627C1112800DE94F1 /* ContactDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

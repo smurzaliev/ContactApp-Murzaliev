@@ -48,7 +48,6 @@ class MainController: UIViewController {
     @objc func addAction(view: UIButton) {
         navigationController?.pushViewController(AddContactController(), animated: true)
     }
-
 }
 
 extension MainController: UITableViewDelegate, UITableViewDataSource {
@@ -60,5 +59,11 @@ extension MainController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath) as! ContactCell
         cell.nameNumberLabel.text = document.contacts[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        navigationController?.pushViewController(ContactDetailsController(), animated: true)
+        let destVC = ContactDetailsController()
+        destVC.fill(nameNumber: document.contacts[indexPath.row])
     }
 }
